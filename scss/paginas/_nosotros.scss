@@ -1,0 +1,62 @@
+.mainNosotros{
+    background-color: map-get($map: $estilonosotros, $key:black );
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+.contenido{
+  p{
+    color: whitesmoke;
+    padding: 50px;
+    text-align: map-get($map: $estilonosotros, $key: centro );
+  }
+  h1{
+    text-align: map-get($map: $estilonosotros, $key: centro );
+  }
+}
+
+.contenido .tituloh1 h1 {
+    width: 200px;
+    height: 100px;
+    background: blue;
+    background-color: white;
+    transition: width 2s;
+    color: black;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contenido .tituloh1 h1:hover {
+    width: 300px;
+  }
+
+.w3-container{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.w4-container{
+
+  color: white;
+
+}
+
+.w3-card-4{
+
+  @extend .w3-container;
+  color: grey;
+
+}
+
+.w3-card-5{
+  @extend .w3-container;
+  color: crimson;
+}

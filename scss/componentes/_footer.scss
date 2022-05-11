@@ -1,0 +1,37 @@
+.footer{
+    margin: 30px;
+}
+
+
+.footer {
+    .row {
+        a{
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: white;
+            margin-right: 10px;
+            text-align: center;
+            transition: all 30mms ease;
+        }
+    }
+    img{
+        max-width: 170px;
+        width: 100px;
+        height: 100px;
+    }
+
+    h5{
+        text-align:center;
+        margin: 20px;
+        font-size: small;
+    }
+}
+
+
+.footer .row a:hover{
+    color: $hover;
+}
+
+

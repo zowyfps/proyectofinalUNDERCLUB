@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+@import "componentes/variables";
+
+@import "componentes/navbar";
+
+@import "paginas/home";
+ 
+@import "paginas/galeria";
+
+@import "paginas/eventos";
+
+@import "paginas/nosotros";
+
+@import "paginas/contacto";
+
+@import "componentes/footer";
+
+
+
